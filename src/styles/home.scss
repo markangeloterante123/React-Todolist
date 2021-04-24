@@ -1,0 +1,24 @@
+.home-main {
+    display: grid;
+    row-gap: 10px;
+    place-items: center;
+    
+    h1{
+        margin: 0px;
+        padding: 0px;
+    }
+    button{
+        border-radius: 5%;
+        border: none;
+        height: 50px;
+        width: 100px;
+    }
+    button:hover{
+        background: chartreuse;
+        color:white;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+}

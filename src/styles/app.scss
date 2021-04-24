@@ -1,0 +1,21 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+//global declaration
+* {
+    font-family: "Century Gothic";
+}
+//global declaration of colors
+$black-color: #000;
+$white-color: #fff;
+.app-main {
+    height: 100vh;
+    background: aqua;
+    // layout
+    display: grid;
+    place-items: center;
+    
+    @import './home.scss';
+    @import './todolist.scss';
+}
